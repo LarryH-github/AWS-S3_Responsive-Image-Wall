@@ -18,7 +18,7 @@ namespace AWS_S3_ImageWall.S3Bucket
         {
             try
             {
-                using (client = new AmazonS3Client("AWS ACCESS KEY ID", "AWS SECRET ACCES KEY", bucketRegion))
+                using (client = new AmazonS3Client("AWS ACCESS KEY ID", "AWS SECRET ACCESS KEY", bucketRegion))
                 {
                     ListObjectsV2Request request = new ListObjectsV2Request
                     {
